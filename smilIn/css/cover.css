@@ -1,0 +1,53 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a
+ {
+  background-color: transparent !important;
+  color: white !important;
+}
+a:focus,
+a:hover
+{
+  background-color: #00B769 !important;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper
+{
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+  .site-wrapper
+  {
+    padding-top: 40px;
+  }
